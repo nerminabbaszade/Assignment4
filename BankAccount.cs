@@ -10,7 +10,7 @@ namespace Assignment4
     {
         public int AccountNumber { get; set; }
         public string OwnerName { get; set; }
-        public int  Balance { get; set; }
+        private int  Balance { get; set; }
         private static int InitialAccountNumber = 1111111111;
         private List<Transaction> Transactions = new List<Transaction>();
         public void Deposit(int amount, DateTime date, string description)

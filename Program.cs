@@ -11,7 +11,6 @@ namespace Assignment4
             BankAccount tester =null;
             do
             {
-                
                 Console.WriteLine("1.Create new account\n" +
                 "2. Make deposit\n" +
                 "3. Make withdrawal\n" +
